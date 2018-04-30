@@ -23,7 +23,7 @@ namespace ConvienienceStoreProject
                 switch (selectInput)
                 {
                     case "1":
-                        Console.WriteLine("Thirsty? You are in luck. We have Coke for $1.25, " +
+                        Console.WriteLine("Thirsty? You're in luck. We have Coke for $1.25, " +
                         "Water for $0.75, Monster Energy for $2.50, and Gatorade for $1.75. Type what you want, or enter next for next category.");
                         string bevSelection = Console.ReadLine();
                         string lowerBevSelection = bevSelection.ToLower();
